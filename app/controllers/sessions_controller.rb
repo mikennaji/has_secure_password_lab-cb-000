@@ -9,7 +9,7 @@ class SessionsController < ApplicationController
         return head(:forbidden) unless @user.authenticate(params[:password])
   end
 
-
+end
 
 
 
