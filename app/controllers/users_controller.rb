@@ -1,5 +1,10 @@
 class UsersController < ApplicationController
 
+
+def new
+
+end
+
   def create
     if params[:password] != params[:password_confirmation]
       redirect_to '/signup'
