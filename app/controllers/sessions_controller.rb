@@ -7,7 +7,7 @@ class SessionsController < ApplicationController
       inspect.params
       session[:user_id] = @user.id
     else
-        return head(:forbidden) 
+        return head(:forbidden)
   end
 
 end
